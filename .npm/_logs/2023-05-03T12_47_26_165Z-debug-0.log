@@ -1,0 +1,122 @@
+0 verbose cli /usr/local/nvm/versions/node/v18.12.1/bin/node /usr/local/nvm/versions/node/v18.12.1/bin/npm
+1 info using npm@9.6.5
+2 info using node@v18.12.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/lib/node_modules/npm/npmrc Completed in 13ms
+6 timing config:load:builtin Completed in 13ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/victor_gaubinps4/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:/home/victor_gaubinps4/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 30ms
+17 timing npm:load:configload Completed in 30ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @types/combined-stream@ts3.8 @types/follow-redirects@ts3.8 @types/mime-db@ts3.8 @types/mime-types@ts3.8 @types/proxy-from-env@ts3.8
+21 verbose argv "install" "--ignore-scripts" "@types/combined-stream@ts3.8" "@types/follow-redirects@ts3.8" "@types/mime-db@ts3.8" "@types/mime-types@ts3.8" "@types/proxy-from-env@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 4ms
+25 verbose logfile logs-max:10 dir:/home/victor_gaubinps4/.npm/_logs/2023-05-03T12_47_26_165Z-
+26 verbose logfile /home/victor_gaubinps4/.npm/_logs/2023-05-03T12_47_26_165Z-debug-0.log
+27 timing npm:load:logFile Completed in 9ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 48ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 20ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fmime-types 146ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fcombined-stream 479ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fproxy-from-env 497ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fmime-db 512ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2ffollow-redirects 1490ms (cache miss)
+40 timing idealTree:userRequests Completed in 1497ms
+41 silly idealTree buildDeps
+42 silly fetch manifest @types/mime-types@2.1.1
+43 silly fetch manifest @types/combined-stream@1.0.3
+44 silly fetch manifest @types/proxy-from-env@1.0.1
+45 silly fetch manifest @types/mime-db@1.43.1
+46 silly fetch manifest @types/follow-redirects@1.14.1
+47 silly placeDep ROOT @types/combined-stream@1.0.3 OK for:  want: 1.0.3
+48 silly placeDep ROOT @types/follow-redirects@1.14.1 OK for:  want: 1.14.1
+49 silly placeDep ROOT @types/mime-db@1.43.1 OK for:  want: 1.43.1
+50 silly placeDep ROOT @types/mime-types@2.1.1 OK for:  want: 2.1.1
+51 silly placeDep ROOT @types/proxy-from-env@1.0.1 OK for:  want: 1.0.1
+52 silly fetch manifest @types/node@*
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 89ms (cache miss)
+54 timing idealTree:#root Completed in 121ms
+55 silly placeDep ROOT @types/node@18.16.3 OK for: @types/combined-stream@1.0.3 want: *
+56 timing idealTree:node_modules/@types/combined-stream Completed in 5ms
+57 timing idealTree:node_modules/@types/follow-redirects Completed in 0ms
+58 timing idealTree:node_modules/@types/mime-db Completed in 0ms
+59 timing idealTree:node_modules/@types/mime-types Completed in 0ms
+60 timing idealTree:node_modules/@types/node Completed in 1ms
+61 timing idealTree:node_modules/@types/proxy-from-env Completed in 0ms
+62 timing idealTree:buildDeps Completed in 130ms
+63 timing idealTree:fixDepFlags Completed in 1ms
+64 timing idealTree Completed in 1650ms
+65 timing reify:loadTrees Completed in 1651ms
+66 timing reify:diffTrees Completed in 2ms
+67 silly reify moves {}
+68 timing reify:retireShallow Completed in 1ms
+69 timing reify:createSparse Completed in 2ms
+70 timing reify:loadBundles Completed in 0ms
+71 silly audit bulk request {
+71 silly audit   'types-registry': [ '0.1.642' ],
+71 silly audit   '@types/combined-stream': [ '1.0.3' ],
+71 silly audit   '@types/follow-redirects': [ '1.14.1' ],
+71 silly audit   '@types/mime-db': [ '1.43.1' ],
+71 silly audit   '@types/mime-types': [ '2.1.1' ],
+71 silly audit   '@types/proxy-from-env': [ '1.0.1' ],
+71 silly audit   '@types/node': [ '18.16.3' ]
+71 silly audit }
+72 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz. Extracting by manifest.
+73 silly tarball no local data for @types/proxy-from-env@https://registry.npmjs.org/@types/proxy-from-env/-/proxy-from-env-1.0.1.tgz. Extracting by manifest.
+74 silly tarball no local data for @types/mime-types@https://registry.npmjs.org/@types/mime-types/-/mime-types-2.1.1.tgz. Extracting by manifest.
+75 silly tarball no local data for @types/mime-db@https://registry.npmjs.org/@types/mime-db/-/mime-db-1.43.1.tgz. Extracting by manifest.
+76 silly tarball no local data for @types/follow-redirects@https://registry.npmjs.org/@types/follow-redirects/-/follow-redirects-1.14.1.tgz. Extracting by manifest.
+77 silly tarball no local data for @types/combined-stream@https://registry.npmjs.org/@types/combined-stream/-/combined-stream-1.0.3.tgz. Extracting by manifest.
+78 http fetch GET 200 https://registry.npmjs.org/@types/mime-db/-/mime-db-1.43.1.tgz 66ms (cache miss)
+79 timing reifyNode:node_modules/@types/mime-db Completed in 83ms
+80 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 199ms
+81 timing auditReport:getReport Completed in 202ms
+82 silly audit report {}
+83 timing auditReport:init Completed in 0ms
+84 timing reify:audit Completed in 203ms
+85 http fetch GET 200 https://registry.npmjs.org/@types/combined-stream/-/combined-stream-1.0.3.tgz 287ms (cache miss)
+86 timing reifyNode:node_modules/@types/combined-stream Completed in 306ms
+87 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz 316ms (cache miss)
+88 timing reifyNode:node_modules/@types/node Completed in 332ms
+89 http fetch GET 200 https://registry.npmjs.org/@types/mime-types/-/mime-types-2.1.1.tgz 674ms (cache miss)
+90 timing reifyNode:node_modules/@types/mime-types Completed in 691ms
+91 http fetch GET 200 https://registry.npmjs.org/@types/proxy-from-env/-/proxy-from-env-1.0.1.tgz 713ms (cache miss)
+92 timing reifyNode:node_modules/@types/proxy-from-env Completed in 729ms
+93 http fetch GET 200 https://registry.npmjs.org/@types/follow-redirects/-/follow-redirects-1.14.1.tgz 752ms (cache miss)
+94 timing reifyNode:node_modules/@types/follow-redirects Completed in 771ms
+95 timing reify:unpack Completed in 772ms
+96 timing reify:unretire Completed in 1ms
+97 timing build:queue Completed in 5ms
+98 timing build:deps Completed in 5ms
+99 timing build Completed in 6ms
+100 timing reify:build Completed in 7ms
+101 timing reify:trash Completed in 0ms
+102 timing reify:save Completed in 22ms
+103 timing reify Completed in 2478ms
+104 silly ADD node_modules/@types/node
+105 silly ADD node_modules/@types/proxy-from-env
+106 silly ADD node_modules/@types/mime-types
+107 silly ADD node_modules/@types/mime-db
+108 silly ADD node_modules/@types/follow-redirects
+109 silly ADD node_modules/@types/combined-stream
+110 timing command:install Completed in 2486ms
+111 verbose exit 0
+112 timing npm Completed in 2770ms
+113 info ok

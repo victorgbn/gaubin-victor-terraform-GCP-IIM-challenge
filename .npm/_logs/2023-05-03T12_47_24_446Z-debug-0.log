@@ -1,0 +1,74 @@
+0 verbose cli /usr/local/nvm/versions/node/v18.12.1/bin/node /usr/local/nvm/versions/node/v18.12.1/bin/npm
+1 info using npm@9.6.5
+2 info using node@v18.12.1
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/lib/node_modules/npm/npmrc Completed in 9ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/victor_gaubinps4/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 16ms
+11 timing config:load:file:/home/victor_gaubinps4/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v18.12.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 36ms
+17 timing npm:load:configload Completed in 37ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install types-registry@latest
+21 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 5ms
+24 timing npm:load:display Completed in 7ms
+25 verbose logfile logs-max:10 dir:/home/victor_gaubinps4/.npm/_logs/2023-05-03T12_47_24_446Z-
+26 verbose logfile /home/victor_gaubinps4/.npm/_logs/2023-05-03T12_47_24_446Z-debug-0.log
+27 timing npm:load:logFile Completed in 18ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 68ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 74ms
+35 http fetch GET 200 https://registry.npmjs.org/types-registry 214ms (cache miss)
+36 timing idealTree:userRequests Completed in 250ms
+37 silly idealTree buildDeps
+38 silly fetch manifest types-registry@0.1.642
+39 silly placeDep ROOT types-registry@0.1.642 OK for:  want: 0.1.642
+40 timing idealTree:#root Completed in 27ms
+41 timing idealTree:node_modules/types-registry Completed in 0ms
+42 timing idealTree:buildDeps Completed in 32ms
+43 timing idealTree:fixDepFlags Completed in 1ms
+44 timing idealTree Completed in 357ms
+45 timing reify:loadTrees Completed in 358ms
+46 timing reify:diffTrees Completed in 1ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 2ms
+49 timing reify:createSparse Completed in 2ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request { 'types-registry': [ '0.1.642' ] }
+52 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.642.tgz. Extracting by manifest.
+53 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.642.tgz 101ms (cache miss)
+54 timing reifyNode:node_modules/types-registry Completed in 112ms
+55 timing reify:unpack Completed in 112ms
+56 timing reify:unretire Completed in 0ms
+57 timing build:queue Completed in 0ms
+58 timing build:deps Completed in 1ms
+59 timing build Completed in 1ms
+60 timing reify:build Completed in 2ms
+61 timing reify:trash Completed in 0ms
+62 timing reify:save Completed in 7ms
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 226ms
+64 timing auditReport:getReport Completed in 231ms
+65 silly audit report {}
+66 timing auditReport:init Completed in 0ms
+67 timing reify:audit Completed in 232ms
+68 timing reify Completed in 614ms
+69 silly ADD node_modules/types-registry
+70 timing command:install Completed in 643ms
+71 verbose exit 0
+72 timing npm Completed in 1208ms
+73 info ok

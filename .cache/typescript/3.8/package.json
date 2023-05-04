@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.642"},"devDependencies":{"@types/combined-stream":"^1.0.3","@types/follow-redirects":"^1.14.1","@types/mime-db":"^1.43.1","@types/mime-types":"^2.1.1","@types/proxy-from-env":"^1.0.1"}}
